@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FDFDFD"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="320dp"
+        android:layout_height="70dp"
+        android:autofillHints="name"
+        android:backgroundTint="#000000"
+        android:fontFamily="sans-serif"
+        android:hint="@string/text1"
+        android:inputType="text"
+        android:textAllCaps="false"
+        android:textColor="#FB0303"
+        android:textColorHighlight="#FF0101"
+        android:textColorHint="#FF0000"
+        android:textColorLink="#FF0000"
+        android:textIsSelectable="false"
+        android:textSize="20sp"
+        tools:ignore="RtlSymmetry" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="320dp"
+        android:layout_height="70dp"
+        android:autofillHints="name"
+        android:backgroundTint="#000000"
+        android:fontFamily="sans-serif"
+        android:hint="@string/text2"
+        android:inputType="text"
+        android:textColor="#FF0000"
+        android:textColorHighlight="#FF0000"
+        android:textColorHint="#FF0000"
+        android:textColorLink="#FF0000"
+        android:textSize="20sp"
+        tools:ignore="RtlSymmetry" />
+
+    <Button
+        android:id="@+id/compareButton"
+        android:layout_width="wrap_content"
+        android:layout_height="75dp"
+        android:background="@color/design_default_color_error"
+        android:backgroundTint="#FD0303"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/boton"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/resultTextView"
+        android:layout_width="319dp"
+        android:layout_height="75dp"
+        android:paddingTop="50dp"
+        android:text="@string/result"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:visibility="visible" />
+</LinearLayout>

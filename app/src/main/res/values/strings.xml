@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ProyectoFinalAle</string>
+    <string name="result">Comparacion</string>
+    <string name="boton">Comparar</string>
+    <string name="text1">Primer Parametro</string>
+    <string name="text2">Segundo Parametro</string>
+</resources>
